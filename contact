@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Welcome | Three Poets</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/index2.css">
+    </head>
+    <body>
+	<header>
+			<p id="site_name">Three Poets</p>
+	</header>
+	<nav id="left_region">
+		<ul class="vertical_menu">
+			<li>
+				<a href="index.html">
+					<img id="home_button" src="img/home.png" alt="Home" />
+				</a>
+			</li>
+			<li>
+				<a href="longfellow.html">
+					<img id="longfellow_button" src="img/longfellow.png" alt="Longfellow" />
+				</a>
+			</li>
+			<li>
+				<a href="poe.html">
+					<img id="poe_button" src="img/poe.png" alt="Poe" />
+				</a>
+			</li>
+			<li>
+				<a href="whitman.html">
+					<img id="whitman_button" src="img/whitman.png" alt="Whitman" />
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<section id="center_region">
+		<h1 class="page_title">Contact</h1>
+		<form>
+			<label for="name">Name (optional):</label><br />
+			<input type="text" id="name" size="40"/><br />
+			<label for="email">Email (optional):</label><br />
+			<input type="email" id="email" size="40"/><br />
+			<label for="msg">Message (required):</label><br />
+			<textarea id="msg" cols="30" rows="5"></textarea><br />
+			<button id="send" type="button">Send</button>
+		</section>
+	<footer id="bottom_region">
+	<p>	&#169; 2010 Nobody at all &nbsp;&nbsp;|&nbsp;&nbsp;<a href="contact.html">Contact</a></p>
+	</footer>
+	</body>
+</html>
